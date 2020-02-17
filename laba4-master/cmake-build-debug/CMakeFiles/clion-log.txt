@@ -1,0 +1,22 @@
+/private/var/folders/nl/kqnhpjp931d0c3v7gszqrvzr0000gn/T/AppTranslocation/EC0EBC66-1EF5-465F-AE07-9750D9F1B8FF/d/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/viktorsmirnov/Desktop/laba4-master
+-- [hunter] Initializing Hunter workspace (9a3594a61227967fb92159339ba326701b287b19)
+-- [hunter]   https://github.com/cpp-pm/hunter/archive/v0.23.218.tar.gz
+-- [hunter]   -> /Users/viktorsmirnov/.hunter/_Base/Download/Hunter/0.23.218/9a3594a
+xcrun: error: invalid active developer path (/Library/Developer/CommandLineTools), missing xcrun at: /Library/Developer/CommandLineTools/usr/bin/xcrun
+
+[hunter ** INTERNAL **] Build project failed
+[hunter ** INTERNAL **] [Directory:/Users/viktorsmirnov/Desktop/laba4-master]
+
+------------------------------ ERROR ------------------------------
+    https://docs.hunter.sh/en/latest/reference/errors/error.internal.html
+-------------------------------------------------------------------
+
+CMake Error at cmake/HunterGate.cmake:87 (message):
+Call Stack (most recent call first):
+  cmake/HunterGate.cmake:97 (hunter_gate_error_page)
+  cmake/HunterGate.cmake:341 (hunter_gate_internal_error)
+  cmake/HunterGate.cmake:499 (hunter_gate_download)
+  CMakeLists.txt:15 (HunterGate)
+
+
+-- Configuring incomplete, errors occurred!
